@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Autofill Milestones for Upwork",
+  "version": "1.0.0",
+  "action": { "default_popup": "index.html" },
+  "content_scripts": [
+    {
+      "js": ["src/content.tsx"],
+      "matches": ["https://www.upwork.com/nx/wm/offer/*"]
+    }
+  ]
+}
