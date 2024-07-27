@@ -52,7 +52,7 @@ function ImportButton() {
           milestones.forEach(fillMilestone)
         }}
         type='button'
-        className='air3-btn air3-btn-tertiary d-lg-none mb-6x'
+        className='air3-btn air3-btn-tertiary mb-6x'
         style={{ marginTop: '-1em' }}
       >
         Import Milestones
